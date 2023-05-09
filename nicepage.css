@@ -41661,7 +41661,6 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 900;
   font-family: Montserrat, sans-serif;
   font-size: 0.75rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -41794,6 +41793,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     margin-top: -70px;
     margin-right: calc(((100% - 1140px) / 2) + -78px);
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 
   .u-header .u-menu-2 {
@@ -41963,7 +41966,7 @@ a.u-link.u-text-hover-grey-90:hover {
   background-image: none;
   font-size: 1rem;
   font-weight: 500;
-  margin: 1px auto 0 30px;
+  margin: 2px auto 0 30px;
   padding: 0;
 }
 
@@ -41971,7 +41974,7 @@ a.u-link.u-text-hover-grey-90:hover {
   background-image: none;
   font-size: 1rem;
   font-weight: 500;
-  margin: 0 auto 0 30px;
+  margin: -1px auto 0 30px;
   padding: 0;
 }
 
