@@ -54,11 +54,13 @@
   min-height: 166px;
 }
 
-.u-section-2 .u-group-1 {
+.u-section-2 .u-image-1 {
   min-height: 86px;
   height: auto;
   margin-top: 40px;
   margin-bottom: 40px;
+  background-image: url("../images/blurry-gradient-haikei4.png");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -78,7 +80,7 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-group-1 {
+  .u-section-2 .u-image-1 {
     height: auto;
   }
 
