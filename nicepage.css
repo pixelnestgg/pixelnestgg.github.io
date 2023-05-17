@@ -41896,11 +41896,13 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 505px;
 }
 
-.u-footer .u-group-1 {
+.u-footer .u-image-1 {
   width: 278px;
   min-height: 277px;
   height: auto;
-  margin: 41px auto 0 -7px;
+  background-image: url("images/blurry-gradient-haikei7.png");
+  background-position: 50% 50%;
+  margin: 39px auto 0 -7px;
 }
 
 .u-footer .u-container-layout-1 {
@@ -41974,11 +41976,13 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 0;
 }
 
-.u-footer .u-group-2 {
-  min-height: 279px;
+.u-footer .u-image-2 {
+  min-height: 277px;
   height: auto;
   width: 278px;
-  margin: -279px auto 0 285px;
+  background-image: url("images/blurry-gradient-haikei5.png");
+  background-position: 50% 50%;
+  margin: -277px auto 0 285px;
 }
 
 .u-footer .u-container-layout-2 {
@@ -42044,11 +42048,13 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 0;
 }
 
-.u-footer .u-group-3 {
-  min-height: 280px;
+.u-footer .u-image-3 {
+  min-height: 277px;
   height: auto;
   width: 278px;
-  margin: -280px 285px 0 auto;
+  background-image: url("images/blurry-gradient-haikei6.png");
+  background-position: 50% 50%;
+  margin: -277px 285px 0 auto;
 }
 
 .u-footer .u-container-layout-3 {
@@ -42060,11 +42066,13 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 28px auto 0 30px;
 }
 
-.u-footer .u-group-4 {
-  min-height: 281px;
+.u-footer .u-image-4 {
+  min-height: 277px;
   height: auto;
   width: 278px;
-  margin: -281px -7px 0 auto;
+  background-image: url("images/blurry-gradient-haikei8.png");
+  background-position: 50% 50%;
+  margin: -277px -7px 0 auto;
 }
 
 .u-footer .u-container-layout-4 {
@@ -42116,11 +42124,13 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 0;
 }
 
-.u-footer .u-group-5 {
+.u-footer .u-image-5 {
   width: 1155px;
   min-height: 122px;
   height: auto;
-  margin: 25px -7px 40px;
+  background-image: url("images/stacked-waves-haikei3.svg");
+  background-position: 50% 50%;
+  margin: 18px -7px 49px;
 }
 
 .u-footer .u-container-layout-5 {
@@ -42128,7 +42138,7 @@ a.u-link.u-text-hover-grey-90:hover {
   padding-right: 18px;
 }
 
-.u-footer .u-image-1 {
+.u-footer .u-image-6 {
   width: 299px;
   height: 65px;
   margin: 29px auto 0 30px;
@@ -42159,35 +42169,32 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 0;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-group-1 {
+  .u-footer .u-image-1 {
     width: 278px;
     margin-left: -7px;
     height: auto;
   }
 
-  .u-footer .u-group-2 {
+  .u-footer .u-image-2 {
     width: 278px;
-    margin-top: -279px;
-    min-height: 279px;
+    margin-top: -277px;
     height: auto;
   }
 
-  .u-footer .u-group-3 {
-    min-height: 280px;
+  .u-footer .u-image-3 {
     width: 278px;
-    margin-top: -280px;
+    margin-top: -277px;
     height: auto;
   }
 
-  .u-footer .u-group-4 {
+  .u-footer .u-image-4 {
     width: 278px;
-    margin-top: -281px;
+    margin-top: -277px;
     margin-right: -7px;
-    min-height: 281px;
     height: auto;
   }
 
-  .u-footer .u-group-5 {
+  .u-footer .u-image-5 {
     width: 940px;
     margin-left: 0;
     margin-right: -7px;
@@ -42199,7 +42206,7 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-bottom: 0;
   }
 
-  .u-footer .u-image-1 {
+  .u-footer .u-image-6 {
     margin-left: 30px;
   }
 
@@ -42208,21 +42215,21 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
-  .u-footer .u-group-5 {
+  .u-footer .u-image-5 {
     width: 720px;
     margin-right: 0;
   }
 }
 @media (max-width: 767px) {
-  .u-footer .u-group-2 {
+  .u-footer .u-image-2 {
     margin-left: 262px;
   }
 
-  .u-footer .u-group-3 {
+  .u-footer .u-image-3 {
     margin-right: 262px;
   }
 
-  .u-footer .u-group-5 {
+  .u-footer .u-image-5 {
     width: 540px;
   }
 
@@ -42236,33 +42243,35 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 1406px;
   }
 
-  .u-footer .u-group-1 {
+  .u-footer .u-image-1 {
     margin-top: 20px;
     margin-left: auto;
   }
 
-  .u-footer .u-group-2 {
+  .u-footer .u-image-2 {
     margin-top: 20px;
     margin-left: auto;
   }
 
-  .u-footer .u-group-3 {
+  .u-footer .u-image-3 {
     margin-top: 20px;
     margin-right: auto;
   }
 
-  .u-footer .u-group-4 {
+  .u-footer .u-image-4 {
     margin-top: 20px;
     margin-right: auto;
   }
 
-  .u-footer .u-group-5 {
+  .u-footer .u-image-5 {
     width: 278px;
     min-height: 129px;
-    margin: 20px auto 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
   }
 
-  .u-footer .u-image-1 {
+  .u-footer .u-image-6 {
     width: 233px;
     height: 50px;
     margin-top: 18px;
