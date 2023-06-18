@@ -253,6 +253,11 @@
   margin: 0 auto 0 112px;
 }
 
+.u-section-2 .u-tab-pane-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .u-section-2 .u-container-layout-4 {
   padding: 30px 0 2px;
 }
@@ -285,6 +290,11 @@
 
 .u-section-2 .u-text-8 {
   margin: 0 auto 0 113px;
+}
+
+.u-section-2 .u-tab-pane-3 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-2 .u-container-layout-6 {
@@ -408,6 +418,10 @@
   .u-section-2 .u-group-elements-1 {
     width: 720px;
   }
+
+  .u-section-2 .u-group-5 {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -459,31 +473,94 @@
 
   .u-section-2 .u-group-1 {
     width: 340px;
+    min-height: 195px;
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 61px;
+    height: 61px;
+    margin-top: 37px;
+    margin-left: 28px;
+  }
+
+  .u-section-2 .u-text-3 {
+    width: auto;
+    margin-top: -69px;
+    margin-left: 118px;
   }
 
   .u-section-2 .u-text-4 {
-    margin-right: 91px;
+    width: auto;
+    margin-top: -1px;
+    margin-right: 33px;
+    margin-left: 116px;
   }
 
   .u-section-2 .u-group-2 {
+    min-height: 169px;
     width: 340px;
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  }
+
+  .u-section-2 .u-text-5 {
+    width: auto;
+    margin-top: -69px;
+  }
+
+  .u-section-2 .u-text-6 {
+    width: auto;
   }
 
   .u-section-2 .u-group-3 {
     width: 340px;
+    min-height: 169px;
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  }
+
+  .u-section-2 .u-text-7 {
+    width: auto;
+    margin-top: -69px;
+  }
+
+  .u-section-2 .u-text-8 {
+    width: auto;
   }
 
   .u-section-2 .u-group-4 {
     width: 340px;
+    min-height: 172px;
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  }
+
+  .u-section-2 .u-text-9 {
+    width: auto;
+    margin-top: -67px;
+    margin-left: 107px;
+  }
+
+  .u-section-2 .u-text-10 {
+    width: auto;
+    margin-top: 0;
+    margin-right: -17px;
+    margin-left: 106px;
   }
 
   .u-section-2 .u-group-5 {
     width: 340px;
+    min-height: 173px;
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  }
+
+  .u-section-2 .u-text-11 {
+    width: auto;
+    margin-top: -66px;
+    margin-left: 110px;
+  }
+
+  .u-section-2 .u-text-12 {
+    width: auto;
+    margin-left: 110px;
   }
 }
 

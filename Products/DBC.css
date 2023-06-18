@@ -537,6 +537,7 @@
 
   .u-section-3 .u-group-2 {
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+    margin-top: 20px;
     height: auto;
   }
 
@@ -551,6 +552,7 @@
 
   .u-section-3 .u-group-3 {
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+    margin-top: 20px;
     height: auto;
   }
 
@@ -579,6 +581,7 @@
 
   .u-section-3 .u-group-5 {
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+    margin-top: 20px;
     height: auto;
   }
 
@@ -593,6 +596,7 @@
 
   .u-section-3 .u-group-6 {
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+    margin-top: 20px;
     height: auto;
   }
 
@@ -888,6 +892,7 @@
   }
 
   .u-section-4 .u-btn-2 {
+    margin-top: 20px;
     margin-left: 356px;
   }
 }
