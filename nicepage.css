@@ -41908,11 +41908,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-14 {
-  font-size: 1.25rem;
+  font-weight: 800;
 }
 
 .u-header .u-nav-15 {
-  font-weight: 800;
+  font-size: 1.25rem;
 }
 
 .u-header .u-nav-16 {
@@ -41940,6 +41940,14 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-22 {
+  font-weight: 800;
+}
+
+.u-header .u-nav-23 {
+  font-weight: 800;
+}
+
+.u-header .u-nav-24 {
   font-weight: 800;
 }
 @media (max-width: 1199px) {
@@ -42261,6 +42269,22 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 0;
 }
 
+.u-footer .u-btn-16 {
+  background-image: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 auto 0 30px;
+  padding: 0;
+}
+
+.u-footer .u-btn-17 {
+  background-image: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 auto 0 30px;
+  padding: 0;
+}
+
 .u-footer .u-image-4 {
   min-height: 277px;
   height: auto;
@@ -42279,27 +42303,11 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 28px auto 0 30px;
 }
 
-.u-footer .u-btn-16 {
-  background-image: none;
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 10px auto 0 31px;
-  padding: 0;
-}
-
-.u-footer .u-btn-17 {
-  background-image: none;
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 0 auto 0 31px;
-  padding: 0;
-}
-
 .u-footer .u-btn-18 {
   background-image: none;
   font-size: 1rem;
   font-weight: 500;
-  margin: 0 auto 0 31px;
+  margin: 10px auto 0 31px;
   padding: 0;
 }
 
@@ -42312,6 +42320,22 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-btn-20 {
+  background-image: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 auto 0 31px;
+  padding: 0;
+}
+
+.u-footer .u-btn-21 {
+  background-image: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 auto 0 31px;
+  padding: 0;
+}
+
+.u-footer .u-btn-22 {
   background-image: none;
   font-size: 1rem;
   font-weight: 500;
@@ -42352,15 +42376,15 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -52px 30px 0 auto;
 }
 
-.u-footer .u-icon-21 {
-  height: 32px;
-}
-
-.u-footer .u-icon-22 {
-  height: 32px;
-}
-
 .u-footer .u-icon-23 {
+  height: 32px;
+}
+
+.u-footer .u-icon-24 {
+  height: 32px;
+}
+
+.u-footer .u-icon-25 {
   height: 0;
 }
 @media (max-width: 1199px) {
@@ -42380,6 +42404,10 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 278px;
     margin-top: -277px;
     height: auto;
+  }
+
+  .u-footer .u-btn-16 {
+    margin-top: 0;
   }
 
   .u-footer .u-image-4 {
