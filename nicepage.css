@@ -41737,12 +41737,12 @@ a.u-link.u-text-hover-grey-90:hover {
         border-left-style: none;
         border-right-style: none;
         border-bottom-style: none;
-        border-radius: 5px;
+        border-radius: 10px;
         font-weight: 600;
         }
         .u-btn
         {
-        border-radius: 5px;
+        border-radius: 10px;
         }
         blockquote
         {
@@ -42253,7 +42253,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 0.875rem;
 }
 
-.u-header .u-nav-2 {
+.u-header .u-nav-3 {
   font-size: 1.25rem;
 }
 
@@ -42424,7 +42424,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-11 {
-  margin: -37px auto 33px 56px;
+  font-weight: 600;
+  margin: -37px auto 33px 68px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-repeater-1 {
