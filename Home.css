@@ -134,8 +134,23 @@
 
   .u-section-2 .u-group-elements-1 {
     width: 340px;
-    margin-left: 0;
+    min-height: 101px;
+    margin-top: 49px;
     margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 1px;
+  }
+
+  .u-section-2 .u-btn-2 {
+    margin-top: 7px;
+    margin-right: auto;
+  }
+
+  .u-section-2 .u-btn-3 {
+    margin-top: -101px;
   }
 } .u-section-3 {
   background-image: none;
