@@ -38,7 +38,7 @@
 
 .u-section-1 .u-btn-3 {
   background-image: none;
-  margin: -47px 0 1px auto;
+  margin: -47px 0 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -588,36 +588,9 @@
   padding: 0;
 }
 
-.u-section-5 .u-list-item-4 {
-  background-image: none;
-  box-shadow: 5px 5px 40px 0 rgba(0,0,0,0.05);
-}
-
-.u-section-5 .u-container-layout-4 {
-  padding: 10px;
-}
-
-.u-section-5 .u-text-12 {
-  margin: 13px auto 0 13px;
-}
-
-.u-section-5 .u-text-13 {
-  margin: 13px auto 0 13px;
-}
-
-.u-section-5 .u-text-14 {
-  margin: 13px auto 0 13px;
-}
-
-.u-section-5 .u-btn-4 {
-  background-image: none;
-  font-size: 1.125rem;
-  padding: 0;
-}
-
 @media (max-width: 1199px) {
   .u-section-5 .u-repeater-1 {
-    min-height: 343px;
+    min-height: 342px;
   }
 }
 
