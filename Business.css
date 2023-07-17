@@ -3,11 +3,35 @@
 }
 
 .u-section-1 .u-image-1 {
-  width: 220px;
-  height: 220px;
-  margin: 60px auto 0;
+  width: 570px;
+  height: 117px;
+  margin: 149px auto 0;
 }
 
 .u-section-1 .u-text-1 {
-  margin: 30px auto 60px;
+  margin: 15px auto 60px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 467px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 111px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 426px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 70px;
+  }
 }

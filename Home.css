@@ -1,14 +1,39 @@
  .u-section-1 {
-  background-image: none;
+  background-image: url("images/stacked-waves-haikei2.svg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 79px;
+  min-height: 53px;
 }
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
-  margin: 26px auto;
+  margin: 12px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 79px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 102px;
+    margin-right: 102px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 125px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 37px;
+  }
 } .u-section-2 {
   background-image: url("images/stacked-waves-haikei1.svg");
   background-position: 50% 50%;
@@ -247,6 +272,24 @@
 @media (max-width: 767px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-text-2 {
+    margin-top: 20px;
+  }
+
+  .u-section-3 .u-text-4 {
+    margin-top: 20px;
+  }
+
+  .u-section-3 .u-text-6 {
+    margin-top: 20px;
+  }
+
+  .u-section-3 .u-text-8 {
+    margin-top: 20px;
   }
 } .u-section-4 {
   background-image: none;

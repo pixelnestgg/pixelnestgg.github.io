@@ -42310,7 +42310,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: -38px;
+    margin-top: 20px;
     margin-right: 153px;
     margin-left: 79px;
   }
@@ -42327,6 +42327,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     margin-left: 187px;
   }
+
+  .u-header .u-btn-1 {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 767px) {
   .u-header .u-image-1 {
@@ -42338,20 +42342,31 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 82px;
+  }
+
   .u-header .u-image-1 {
-    width: 154px;
-    height: 31px;
-    margin-left: -32px;
+    width: 153px;
+    height: 30px;
+    margin-top: 26px;
+    margin-left: 17px;
   }
 
   .u-header .u-menu-1 {
-    margin-right: -40px;
-    margin-left: auto;
+    width: auto;
+    margin: -39px 14px 16px auto;
   }
 
   .u-header .u-file-icon-1 {
-    font-size: calc(1em + 18px);
-    padding: 9px 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .u-header .u-btn-1 {
+    margin-top: -44px;
+    margin-right: 45px;
+    margin-bottom: 7px;
   }
 }
  .u-footer {
@@ -42499,6 +42514,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-image-1 {
   width: 42px;
   height: 42px;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 29px auto 0 30px;
 }
 
@@ -42546,8 +42563,16 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 238px;
   }
 
+  .u-footer .u-text-2 {
+    margin-top: 20px;
+  }
+
   .u-footer .u-layout-cell-2 {
     min-height: 238px;
+  }
+
+  .u-footer .u-btn-3 {
+    margin-top: 20px;
   }
 
   .u-footer .u-btn-4 {
@@ -42562,8 +42587,16 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 238px;
   }
 
+  .u-footer .u-btn-6 {
+    margin-top: 20px;
+  }
+
   .u-footer .u-layout-cell-4 {
     min-height: 238px;
+  }
+
+  .u-footer .u-btn-7 {
+    margin-top: 20px;
   }
 
   .u-footer .u-btn-8 {
@@ -42606,8 +42639,16 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 100px;
   }
 
+  .u-footer .u-btn-2 {
+    margin-top: 20px;
+  }
+
   .u-footer .u-layout-cell-2 {
     min-height: 100px;
+  }
+
+  .u-footer .u-btn-4 {
+    margin-top: 20px;
   }
 
   .u-footer .u-layout-cell-3 {
@@ -42616,6 +42657,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-layout-cell-4 {
     min-height: 100px;
+  }
+
+  .u-footer .u-btn-8 {
+    margin-top: 20px;
+  }
+
+  .u-footer .u-btn-10 {
+    margin-top: 20px;
   }
 
   .u-footer .u-text-6 {
@@ -42650,7 +42699,59 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-footer .u-btn-9 {
+    margin-top: 20px;
+  }
+
+  .u-footer .u-btn-11 {
+    margin-top: 20px;
+  }
 }
+@media (max-width: 575px) {
+  .u-footer .u-sheet-1 {
+    min-height: 1064px;
+  }
+
+  .u-footer .u-image-1 {
+    margin-top: 67px;
+    margin-left: 5px;
+  }
+
+  .u-footer .u-text-6 {
+    width: auto;
+    margin-top: -64px;
+    margin-left: 133px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin: 4px auto 0 137px;
+  }
+
+  .u-footer .u-text-7 {
+    width: auto;
+    margin-top: -86px;
+    margin-bottom: 60px;
+    margin-left: 213px;
+  }
+}
+.u-footer .u-image-1, .u-footer .u-image-1:before, .u-footer .u-image-1 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-footer .u-image-1.u-image-1.u-image-1:hover {
+    transform: rotate(180deg) !important;
+    box-shadow: 0px 0px 40px 0px rgba(66,89,255,1) !important
+}
+.u-footer .u-image-1.u-image-1.u-image-1.hover {
+    transform: rotate(180deg) !important;
+    box-shadow: 0px 0px 40px 0px rgba(66,89,255,1) !important
+}
+.u-footer .u-container-layout:hover .u-image-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-footer .u-image-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} 
 
 
  /*begin-variables base-font-size*/ 
