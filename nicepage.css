@@ -42276,12 +42276,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-7 {
-  font-size: 1.25rem;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .u-header .u-nav-8 {
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: normal;
 }
 
 .u-header .u-nav-9 {
@@ -42297,6 +42297,14 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-12 {
+  font-weight: 500;
+}
+
+.u-header .u-nav-13 {
+  font-weight: 500;
+}
+
+.u-header .u-nav-14 {
   font-weight: 500;
 }
 
@@ -42364,7 +42372,7 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-right: 18px;
   }
 
-  .u-header .u-nav-7 {
+  .u-header .u-nav-8 {
     font-weight: 700;
   }
 

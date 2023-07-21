@@ -1,38 +1,191 @@
  .u-section-1 {
-  background-image: url("images/stacked-waves-haikei2.svg");
+  background-image: url("images/layered-waves-haikei1.svg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 53px;
+  min-height: 89px;
+}
+
+.u-section-1 .u-countdown-1 {
+  margin: 12px auto 0 0;
+  padding: 0;
+}
+
+.u-section-1 .u-countdown-counter-1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-label-1 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.u-section-1 .u-countdown-separator-1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-counter-2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-label-2 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.u-section-1 .u-countdown-separator-2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-counter-3 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-label-3 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.u-section-1 .u-countdown-separator-3 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-counter-4 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-label-4 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.u-section-1 .u-countdown-separator-4 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-counter-5 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-label-5 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.u-section-1 .u-countdown-separator-5 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-counter-6 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-label-6 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .u-section-1 .u-text-1 {
-  font-weight: 700;
-  margin: 12px 0;
+  width: 477px;
+  font-weight: 900;
+  margin: -54px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: -43px 0 23px 782px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 79px;
+    min-height: 73px;
   }
 
   .u-section-1 .u-text-1 {
+    margin-top: 20px;
     margin-left: 102px;
     margin-right: 102px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 582px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 56px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 362px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 42px;
+  }
+
+  .u-section-1 .u-countdown-1 {
+    margin-top: 5px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 182px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 125px;
+    min-height: 179px;
+  }
+
+  .u-section-1 .u-countdown-1 {
+    margin-top: 30px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-text-1 {
     width: auto;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 37px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: -3px;
+    margin-left: 0;
+    margin-bottom: 30px;
   }
 } .u-section-2 {
   background-image: url("images/stacked-waves-haikei1.svg");
