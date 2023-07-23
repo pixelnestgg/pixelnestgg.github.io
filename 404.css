@@ -1,17 +1,62 @@
+ .u-section-1 {
+  background-image: url("images/layered-waves-haikei.svg");
+  background-position: 50% 50%;
+}
+
 .u-section-1 .u-sheet-1 {
-  min-height: 552px;
+  min-height: 590px;
 }
 
 .u-section-1 .u-image-1 {
-  width: 220px;
-  height: 220px;
-  margin: 90px auto 0;
+  width: 711px;
+  height: 166px;
+  margin: 60px auto 0;
 }
 
 .u-section-1 .u-text-1 {
-  margin: 30px auto 0;
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-btn-1 {
-  margin: 30px auto 60px;
+  margin: 44px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    height: 165px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 550px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 125px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 504px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 79px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
 }

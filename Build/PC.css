@@ -1,16 +1,16 @@
  .u-section-1 {
-  background-image: url("../images/pcb.png");
+  background-image: url("../images/layered-waves-haikei.svg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 567px;
+  min-height: 405px;
 }
 
 .u-section-1 .u-image-1 {
-  width: 570px;
-  height: 213px;
-  margin: 140px auto 0;
+  width: 895px;
+  height: 144px;
+  margin: 60px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -20,35 +20,42 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 468px;
+    min-height: 334px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 358px;
+    min-height: 228px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 720px;
+    height: 116px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 258px;
+    min-height: 199px;
   }
 
   .u-section-1 .u-image-1 {
     width: 540px;
-    height: 202px;
+    height: 87px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 183px;
+    min-height: 167px;
   }
 
   .u-section-1 .u-image-1 {
     width: 340px;
-    height: 127px;
+    height: 55px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 658px;
