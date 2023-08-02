@@ -29,24 +29,17 @@
   .u-section-1 .u-btn-2 {
     margin-top: 20px;
     margin-right: 0;
-    margin-bottom: initial;
   }
 
   .u-section-1 .u-btn-3 {
     margin-top: 20px;
     margin-right: 76px;
-    margin-bottom: initial;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-btn-2 {
-    margin-bottom: 0;
-  }
-
   .u-section-1 .u-btn-3 {
     margin-right: 0;
-    margin-bottom: 18px;
   }
 }
 
