@@ -42257,16 +42257,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-2 {
-  font-weight: 500;
-}
-
-.u-header .u-nav-3 {
   font-size: 1.25rem;
   font-weight: normal;
-}
-
-.u-header .u-nav-4 {
-  font-weight: 500;
 }
 
 .u-header .u-btn-1 {
@@ -42344,7 +42336,7 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-right: 18px;
   }
 
-  .u-header .u-nav-3 {
+  .u-header .u-nav-2 {
     font-weight: 700;
   }
 
