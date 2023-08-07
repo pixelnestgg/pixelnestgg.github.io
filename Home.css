@@ -80,6 +80,7 @@
 }
 
 .u-section-1-1 .u-btn-1 {
+  background-image: none;
   margin: 40px auto 60px;
 }
 
@@ -150,6 +151,11 @@
 
 .u-section-1-2 .u-text-1 {
   font-size: 1.25rem;
+  margin: 14px auto 0;
+}
+
+.u-section-1-2 .u-btn-1 {
+  background-image: none;
   margin: 14px auto 60px;
 }
 
@@ -281,7 +287,7 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 358px;
+  min-height: 359px;
 }
 
 .u-section-2 .u-text-1 {
@@ -289,14 +295,14 @@
 }
 
 .u-section-2 .u-text-2 {
-  margin: 13px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-2 .u-image-1 {
   min-height: 167px;
   height: auto;
-  margin-top: 26px;
-  margin-bottom: 41px;
+  margin-top: 34px;
+  margin-bottom: 46px;
   background-image: url("images/layered-waves-haikei1.svg");
   background-position: 50% 50%;
 }
@@ -400,23 +406,23 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 735px;
+  min-height: 609px;
 }
 
 .u-section-3 .u-text-1 {
-  margin: 41px auto 0;
+  margin: 47px auto 0;
 }
 
 .u-section-3 .u-text-2 {
-  margin: 13px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-group-1 {
-  min-height: 172px;
-  margin-top: 28px;
-  margin-bottom: 0;
+  width: 555px;
+  box-shadow: 5px 5px 40px 0 rgba(0,0,0,0.1);
+  min-height: 192px;
   height: auto;
-  box-shadow: 5px 5px 40px 0 rgba(0,0,0,0.05);
+  margin: 30px auto 0 0;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -424,23 +430,20 @@
   padding-right: 30px;
 }
 
-.u-section-3 .u-image-1 {
-  width: 274px;
-  height: 41px;
-  margin: 0 auto 0 0;
+.u-section-3 .u-text-3 {
+  margin: 43px auto 0 0;
 }
 
-.u-section-3 .u-text-3 {
-  font-weight: 500;
-  margin: 13px 0 0;
+.u-section-3 .u-text-4 {
+  margin: 20px 0 0;
 }
 
 .u-section-3 .u-group-2 {
-  min-height: 172px;
+  width: 555px;
+  box-shadow: 5px 5px 40px 0 rgba(0,0,0,0.1);
+  min-height: 192px;
   height: auto;
-  box-shadow: 5px 5px 40px 0 rgba(0,0,0,0.05);
-  margin-top: 13px;
-  margin-bottom: 0;
+  margin: -190px 0 0 auto;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -448,23 +451,20 @@
   padding-right: 30px;
 }
 
-.u-section-3 .u-image-2 {
-  width: 276px;
-  height: 41px;
-  margin: 0 auto 0 0;
+.u-section-3 .u-text-5 {
+  margin: 29px auto 0 0;
 }
 
-.u-section-3 .u-text-4 {
-  font-weight: 500;
-  margin: 13px 0 0;
+.u-section-3 .u-text-6 {
+  margin: 20px 0 0;
 }
 
 .u-section-3 .u-group-3 {
-  min-height: 172px;
+  box-shadow: 5px 5px 40px 0 rgba(0,0,0,0.1);
+  min-height: 192px;
   height: auto;
-  box-shadow: 5px 5px 40px 0 rgba(0,0,0,0.05);
-  margin-top: 13px;
-  margin-bottom: 41px;
+  margin-top: 28px;
+  margin-bottom: 47px;
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -472,28 +472,23 @@
   padding-right: 30px;
 }
 
-.u-section-3 .u-image-3 {
-  width: 321px;
-  height: 41px;
-  margin: 0 auto 0 0;
+.u-section-3 .u-text-7 {
+  margin: 57px auto 0 0;
 }
 
-.u-section-3 .u-text-5 {
-  font-weight: 500;
-  margin: 13px 0 0;
+.u-section-3 .u-text-8 {
+  margin: 20px 0 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-3 .u-group-1 {
+    margin-left: 17px;
     height: auto;
   }
 
   .u-section-3 .u-group-2 {
+    margin-left: 417px;
     height: auto;
-  }
-
-  .u-section-3 .u-image-2 {
-    height: 42px;
   }
 
   .u-section-3 .u-group-3 {
@@ -502,26 +497,25 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-3 .u-text-1 {
-    margin-left: 37px;
-    margin-right: 37px;
+  .u-section-3 .u-group-2 {
+    margin-left: 197px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-3 .u-text-1 {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-
-  .u-section-3 .u-text-2 {
-    margin-left: 16px;
-    margin-right: 16px;
+  .u-section-3 .u-group-1 {
+    width: 540px;
+    margin-left: auto;
   }
 
   .u-section-3 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-3 .u-group-2 {
+    width: 540px;
+    margin-left: auto;
   }
 
   .u-section-3 .u-container-layout-2 {
@@ -536,23 +530,17 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 746px;
+  .u-section-3 .u-group-1 {
+    width: 340px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .u-section-3 .u-text-1 {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+  .u-section-3 .u-group-2 {
+    width: 340px;
   }
 
-  .u-section-3 .u-text-2 {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .u-section-3 .u-image-3 {
-    width: 320px;
+  .u-section-3 .u-text-7 {
+    margin-right: 0;
   }
 }
